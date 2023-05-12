@@ -1,0 +1,10 @@
+import re
+#function to remove special characters
+def remove_special_characters (text): #define the pattern to keep
+patr'[a-zA-Z0-9., 17/:;\"\'\s]' return re.sub(pat, ", text)
+def remove_numbers (text):
+result re.sub(r'\d+', text)
+return result
+• call function
+remove_special_characters ("007 Not sure if this % was fun! 558923 What do you think of it.? $500USD!") input_str "There are 3 balls in this bag, and 12 in the other one.
+remove_numbers (input_str)
